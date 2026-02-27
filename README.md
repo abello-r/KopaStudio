@@ -1,16 +1,48 @@
 # KopaStudio
 
-A modern, conversion-focused landing page for **Kopa Studio** (digital agency services: web development, chatbots, and business automation).
+Conversion-focused digital agency landing page built with **React + Vite**.
 
-## Live
-- https://abello-r.github.io/KopaStudio/
+> Services showcased: **Web Development**, **Chatbots**, and **Business Automation**.
 
-## Stack
+## Live Website
+- **Production:** https://abello-r.github.io/KopaStudio/
+
+## Tech Stack
 - React
 - Vite
-- CSS
+- CSS (custom, no UI framework)
 
-## Run locally
+## Core Sections
+- Hero + primary CTAs
+- New client promo card
+- Benefits
+- Audience fit (ideal / not ideal)
+- Pricing
+- Process
+- Guarantee
+- FAQ
+- Contact
+- Legal pages
+
+## Project Structure
+```txt
+landing-servicios/
+├─ src/
+│  ├─ App.jsx        # Main content and sections
+│  ├─ App.css        # Layout + responsive styles
+│  ├─ index.css      # Global styles
+│  └─ main.jsx
+├─ public/
+│  ├─ favicon.svg
+│  ├─ og-kopastudio.jpg
+│  ├─ aviso-legal.html
+│  ├─ politica-privacidad.html
+│  └─ politica-cookies.html
+├─ index.html        # SEO + Open Graph metadata
+└─ vite.config.js
+```
+
+## Local Development
 ```bash
 cd landing-servicios
 npm install
@@ -30,8 +62,12 @@ cd landing-servicios
 npm run deploy
 ```
 
-## Project structure
-- `landing-servicios/src/App.jsx` → main page content
-- `landing-servicios/src/App.css` → styles
-- `landing-servicios/index.html` → SEO/OG tags
-- `landing-servicios/public/` → favicon, legal pages, OG image
+## SEO / Sharing
+Open Graph + Twitter metadata is configured in `landing-servicios/index.html`.
+
+Preview image used when sharing:
+- `landing-servicios/public/og-kopastudio.jpg`
+
+## Repository Metadata
+- Topics: `landing`, `automation`, `business`
+- Homepage: https://abello-r.github.io/KopaStudio/
